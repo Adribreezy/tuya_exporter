@@ -1,0 +1,27 @@
+{
+  "name": "node-tuya-exporter",
+  "version": "1.0.0",
+  "description": "A Prometheus Exporter for Tuya Plugs, energy monitoring",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "energy",
+    "monitoring",
+    "tuya"
+  ],
+  "author": "dotmaster",
+  "license": "ISC",
+  "dependencies": {
+    "await-timeout": "^1.1.1",
+    "cloudtuya": "github:unparagoned/cloudtuya",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "js-yaml": "^3.14.0",
+    "log-timestamp": "^0.3.0",
+    "prom-client": "siimon/prom-client",
+    "tuyapi": "dotmaster/tuyapi#patch-1"
+  }
+}
