@@ -19,7 +19,7 @@
     "cloudtuya": "github:unparagoned/cloudtuya",
     "debug": "^4.3.1",
     "express": "^4.17.3",
-    "js-yaml": "^3.14.0",
+    "js-yaml": "^3.14.2",
     "log-timestamp": "^0.3.0",
     "prom-client": "siimon/prom-client",
     "tuyapi": "dotmaster/tuyapi#patch-1"
